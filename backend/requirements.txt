@@ -5,4 +5,4 @@ openai
 pdfplumber
 python-docx
 spacy
-sklearn
+scikit-learn
