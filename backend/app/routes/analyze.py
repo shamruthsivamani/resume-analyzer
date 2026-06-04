@@ -6,7 +6,7 @@ from app.services.scorer import calculate_score
 
 router = APIRouter(prefix="/analyze", tags=["Analyze"])
 
-@router.post("/")
+@router.post("")
 async def analyze_resume(
     resume: UploadFile = File(...),
     job_description: str = Form(...)
