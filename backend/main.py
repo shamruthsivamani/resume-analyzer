@@ -7,7 +7,7 @@ app = FastAPI()
 # CORS (fix your previous error 🔥)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],  # change later to frontend URL
+    allow_origins=["https://resume-analyzer-afax.onrender.com"],  # change later to frontend URL
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
